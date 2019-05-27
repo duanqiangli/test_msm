@@ -1,0 +1,11 @@
+# [("1", "休眠"), ("m", "MAC地址"), ("w", "WLAN直连")]
+test_search_data:
+  test_search_01:
+    text: "1"
+    expect: "休眠"
+  test_search_02:
+    text: "m"
+    expect: "MAC地址"
+  test_search_03:
+    text: "w"
+    expect: "WLAN直连"
