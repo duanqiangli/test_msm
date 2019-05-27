@@ -2,10 +2,11 @@ import sys, os
 import pytest
 import yaml
 
+sys.path.append(os.getcwd())
 from base.getFileData import GetFileData
 from get_dir import BASE_DIR
 
-sys.path.append(os.getcwd())
+
 
 from base.get_driver import get_phone_driver
 from page.page import Page
